@@ -1,97 +1,171 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Julien Besset – Applied Mathematics</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Julien Besset - CV</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 2rem; line-height: 1.6; max-width: 900px; margin-left: auto; margin-right: auto; }
-    h1, h2 { color: #2c3e50; }
-    h1 { margin-bottom: 0; }
-    .section { margin-top: 2rem; }
-    .contact a { text-decoration: none; color: #2980b9; }
-    ul { padding-left: 1.2rem; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #1a1a1a;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    .left {
+      width: 35%;
+      background-color: #f4f4f4;
+      padding: 30px;
+      box-sizing: border-box;
+    }
+    .right {
+      width: 65%;
+      padding: 30px;
+      box-sizing: border-box;
+    }
+    h1 {
+      font-size: 24px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 18px;
+      margin-top: 30px;
+      text-transform: uppercase;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .small {
+      font-size: 14px;
+    }
+    .contact, .skills, .soft-skills {
+      margin-bottom: 30px;
+    }
+    .label {
+      font-weight: bold;
+    }
+    .block {
+      margin-bottom: 15px;
+    }
+    .bold {
+      font-weight: bold;
+    }
+    .subtitle {
+      font-size: 14px;
+      color: #666;
+    }
   </style>
 </head>
 <body>
-
-  <h1>Julien Besset</h1>
-  <h2>Ph.D. in Applied Mathematics</h2>
-
-  <div class="section">
-    <p>I am a young Ph.D. in applied mathematics, creative, ambitious, and enthusiastic. I aim to combine my background in mathematical analysis, modeling, and simulation with a strong interest in research and programming, in a setting where I can contribute meaningfully to real-world challenges and their environments.</p>
+  <div class="container">
+    <div class="left">
+      <h1>Julien Besset</h1>
+      <div class="section contact">
+        <h2>Contact</h2>
+        <p class="small">julienbesset40@gmail.com<br>
+        www.linkedin.com/in/julien-besset-a418a9aa<br>
+        +33 6 85 54 49 82<br>
+        45 rue de l’abbé Brémond - 64000 - Pau</p>
+      </div>
+      <div class="section">
+        <h2>Soft Skills</h2>
+        <ul>
+          <li>French / English</li>
+          <li>Oral presentation</li>
+          <li>Adaptability</li>
+          <li>Team spirit</li>
+          <li>Initiative-taking</li>
+        </ul>
+      </div>
+      <div class="section">
+        <h2>Technical Skills</h2>
+        <ul>
+          <li>C++ / Python / Fortran / SAS</li>
+          <li>HPC, MPI</li>
+          <li>Numerical Analysis</li>
+          <li>Optimization</li>
+          <li>ROM (Reduced Order Modelling)</li>
+          <li>FEM (Finite Element Method)</li>
+          <li>Deep learning</li>
+        </ul>
+      </div>
+      <div class="section">
+        <h2>Conferences</h2>
+        <ul>
+          <li>Journées Mathias</li>
+          <li>Journées Ondes Sud-Ouest</li>
+          <li>Rencontre Ondes et Applications</li>
+          <li>ECCOMAS</li>
+          <li>WAVES</li>
+        </ul>
+      </div>
+    </div>
+    <div class="right">
+      <div class="section">
+        <p>I am a young PhD in applied mathematics, creative, ambitious, and enthusiastic. I hope to combine my background in mathematics, analysis, modeling, and simulation with my passion for research and programming, in an environment where I can make a positive impact on people's daily lives and their environment.</p>
+      </div>
+      <div class="section">
+        <h2>Work Experience</h2>
+        <div class="block">
+          <div class="bold">Teaching Experience</div>
+          <div class="subtitle">2022–2025 - Université de Pau et des Pays de l’Adour, France</div>
+          <p class="small">Taught courses in scientific computing, numerical integration methods, and Python programming.</p>
+        </div>
+        <div class="block">
+          <div class="bold">Research Engineer</div>
+          <div class="subtitle">2021–2022 - Inria Bordeaux, Pau, France</div>
+          <p class="small">Developed a solver for acoustic wave equations using SEM in C++ on GEOS. Contributed to Full Waveform Inversion code in Python and C++.</p>
+        </div>
+        <div class="block">
+          <div class="bold">SAS Programmer Apprentice</div>
+          <div class="subtitle">2020 - Veristat, Montréal, Canada</div>
+          <p class="small">Data handling and SAS programming applied to clinical trials. Reviewed statistical analysis plans.</p>
+        </div>
+        <div class="block">
+          <div class="bold">Master’s Internship</div>
+          <div class="subtitle">2017 - IRAP, Toulouse, France</div>
+          <p class="small">Signal processing for gamma-ray burst detection within complex datasets.</p>
+        </div>
+      </div>
+      <div class="section">
+        <h2>Education</h2>
+        <div class="block">
+          <div class="bold">Ph.D in Applied Mathematics</div>
+          <div class="subtitle">2022–2025 - Université de Pau et des Pays de l’Adour</div>
+          <p class="small">Development of a new MOR method applied to FWI process.</p>
+        </div>
+        <div class="block">
+          <div class="bold">Master’s in Analysis, Modeling, and Simulation</div>
+          <div class="subtitle">2015–2017 - Université Paris-Saclay</div>
+        </div>
+        <div class="block">
+          <div class="bold">Bachelor’s in Mathematics</div>
+          <div class="subtitle">2012–2015 - Université de Pau et des Pays de l’Adour</div>
+        </div>
+      </div>
+      <div class="section">
+        <h2>Publications</h2>
+        <ul>
+          <li><strong>MOR-TL</strong>: A Novel Model Order Reduction Method... (2025 – Research Report – Submitted)</li>
+          <li>Fréchet-Taylor-Based approach for ROM... (2025 – Conference Paper)</li>
+          <li>Full Waveform Inversion using POD (2024 – Conference Paper)</li>
+          <li>Un article sur les travaux de recherche du doctorat est en cours d’écriture</li>
+        </ul>
+      </div>
+    </div>
   </div>
-
-  <div class="section contact">
-    <h2>Contact</h2>
-    <ul>
-      <li>Email: <a href="mailto:julienbesset40@gmail.com">julienbesset40@gmail.com</a></li>
-      <li>Phone: +33 6 85 54 49 82</li>
-      <li>Address: 45 rue de l’Abbé Brémond, 64000 Pau, France</li>
-      <li>LinkedIn: <a href="https://www.linkedin.com/in/julien-besset-a418a9aa" target="_blank">linkedin.com/in/julien-besset-a418a9aa</a></li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>Technical Skills</h2>
-    <ul>
-      <li>C++, Python, Fortran, SAS</li>
-      <li>High Performance Computing (HPC), MPI</li>
-      <li>Numerical Analysis, Optimization</li>
-      <li>Reduced Order Modeling (ROM), Finite Element Method (FEM)</li>
-      <li>Deep Learning</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>Professional Experience</h2>
-    <ul>
-      <li><strong>2022–2025 – University of Pau:</strong> Teaching numerical integration, scientific computing, and Python programming.</li>
-      <li><strong>2021–2022 – Inria Bordeaux:</strong> Developed an acoustic wave solver using the Spectral Element Method in C++ (GEOS platform). Contributed to Full Waveform Inversion (FWI) tools in Python and C++.</li>
-      <li><strong>2020 – Veristat, Montreal:</strong> SAS programming and data management for clinical trials. Reviewed statistical analysis plans.</li>
-      <li><strong>2017 – IRAP, Toulouse:</strong> Signal processing for gamma-ray burst detection in complex data sets.</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>Education</h2>
-    <ul>
-      <li><strong>Ph.D. in Applied Mathematics</strong> – 2022–2025, University of Pau</li>
-      <li><strong>Master's in Analysis, Modeling, and Simulation</strong> – 2015–2017, Université Paris-Saclay</li>
-      <li><strong>Bachelor's in Mathematics</strong> – 2012–2015, University of Pau</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>Publications</h2>
-    <ul>
-      <li><em>MOR-TL: A Novel Model Order Reduction Method for Parametrized Problems with Application to Seismic Wave Propagation</em> – 2025 (Submitted)</li>
-      <li><em>Fréchet-Taylor-Based Approach for Efficient ROM Construction and Line Search Acceleration</em> – 2025, Conference Paper</li>
-      <li><em>Full Waveform Inversion using Proper Orthogonal Decomposition</em> – 2024, Conference Paper</li>
-      <li>A research paper based on the Ph.D. work is currently being written</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>Conferences</h2>
-    <ul>
-      <li>ECCOMAS</li>
-      <li>WAVES</li>
-      <li>Journées Mathias</li>
-      <li>Southern Wave Days (Journées Ondes Sud-Ouest)</li>
-      <li>Waves and Applications Meeting (Rencontres Ondes et Applications)</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>Soft Skills</h2>
-    <ul>
-      <li>Languages: French, English</li>
-      <li>Oral presentation</li>
-      <li>Team spirit, adaptability, initiative</li>
-    </ul>
-  </div>
-
 </body>
 </html>
